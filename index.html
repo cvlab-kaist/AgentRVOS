@@ -102,7 +102,7 @@
 
             <!-- Link Buttons -->
             <div class="hero-buttons">
-                <a href="" class="btn disabled">
+                <a href="https://arxiv.org/abs/2603.23489" class="btn" target="_blank" rel="noopener">
                     <i class="fa-solid fa-file-pdf"></i> Paper
                 </a>
                 <a href="https://github.com/cvlab-kaist/AgentRVOS" class="btn btn-outline" target="_blank" rel="noopener">
@@ -388,7 +388,7 @@
             </div>
 
             <!-- Qualitative: Tracking visualization -->
-            <div id="sub-qual" data-subsection class="results-block">
+            <div id="Qualitative_Results" data-subsection class="results-block">
                 <h3 class="analysis-subtitle">Qualitative Results</h3>
                 <p>
                     We visualize the predicted mask tracks on MeViS, ReVOS, and ReasonVOS.
@@ -422,17 +422,24 @@
     <section id="citation" class="citation-section">
         <div class="container">
             <h2 class="section-title" style="font-size: 1.5rem; border: none; margin-bottom: 1rem;">Citation</h2>
+            <p style="color: var(--color-text-muted); margin-bottom: 1.5rem;">
+                If you find our work useful, please consider citing our paper.
+            </p>
             <div class="citation-block group">
                 <button onclick="copyBibtex()" class="citation-copy-btn">
                     <i class="fa-regular fa-copy"></i> Copy
                 </button>
-                <div id="bibtex-text">
-
-                </div>
-<pre class="citation-code"><code id="bibtex-code">
-</code></pre>
-
-</div>
+                <pre class="citation-code"><code id="bibtex-text">
+@misc{jin2026agentrvosreasoningobjecttracks,
+    title = {AgentRVOS: Reasoning over Object Tracks for Zero-Shot Referring Video Object Segmentation},
+    author = {Woojeong Jin and Jaeho Lee and Heeseong Shin and Seungho Jang and Junhwan Heo and Seungryong Kim},
+    year = {2026},
+    eprint = {2603.23489},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.CV},
+    url = {https://arxiv.org/abs/2603.23489},
+}</code></pre>
+            </div>
         </div>
     </section>
 
