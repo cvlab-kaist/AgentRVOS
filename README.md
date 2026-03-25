@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://cvlab-kaist.github.io/AgentRVOS"><img src="https://img.shields.io/badge/🌐_Project-Page-blue?style=for-the-badge" alt="Project Page"></a>&nbsp;
-  <a href="#"><img src="https://img.shields.io/badge/📄_arXiv-Coming_Soon-b31b1b?style=for-the-badge" alt="arXiv"></a>&nbsp;
+  <a href="https://arxiv.org/pdf/2603.23489"><img src="https://img.shields.io/badge/📄_arXiv-PDF-b31b1b?style=for-the-badge" alt="arXiv"></a>&nbsp;
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
 
 | Date | Update |
 |:---|:---|
-| **2026.03** | 📄 Paper released on arXiv |
+| **2026.03** | 📄 Paper released on [ArXiv](https://arxiv.org/pdf/2603.23489) |
 | **2026.03** | 🌐 [Project page](https://cvlab-kaist.github.io/AgentRVOS) is available! |
 
 ---
@@ -65,6 +65,8 @@
 
 ## 📊 Main Results
 
+For more results, please see our [Project page](https://cvlab-kaist.github.io/AgentRVOS/#Qualitative_Results)!
+
 <p align="center">
   <img src="assets/result_table.png" width="95%">
   <br>
@@ -79,7 +81,14 @@
 If you find this work useful, please consider citing:
 
 ```bibtex
-@article{
+@misc{jin2026agentrvosreasoningobjecttracks,
+      title={AgentRVOS: Reasoning over Object Tracks for Zero-Shot Referring Video Object Segmentation}, 
+      author={Woojeong Jin and Jaeho Lee and Heeseong Shin and Seungho Jang and Junhwan Heo and Seungryong Kim},
+      year={2026},
+      eprint={2603.23489},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.23489},
 }
 ```
 
